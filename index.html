@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: pink;
+        }
+
+        .header {
+            background: darkorchid;
+            color:white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+    background-color: orchid;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+    box-shadow: 0 0 10px red,
+                0 0 20px red,
+                0 0 40px red;
+  border-radius: 20px;
+          
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 90px;
+            height: 90px;
+            border-r9dius: 50%;
+            background: gray;
+            background-image: url('https://static.wikitide.net/loathsomecharacterswiki/f/f6/C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png');
+        }
+
+        .btn {
+            margin-top: 10px;
+        }
+
+        .btn button {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            background: palevioletred;
+            color: white;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .progress {
+            background: green;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background: aqua;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">My Profile</div>
+
+<div class="container">
+
+
+    <div class="card profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-eH4olfUjGxRMrF18XTKa0fyx0dzjKN49w&s" alt="profile">
+        <h3>kaila pradita</h3>
+        <p>SMK An Nur</p>
+        <p>bogor</p>
+        <div class="btn">
+            <button>Follow</button>
+            <button>Message</button>
+        </div>
+    </div>
+
+  
+    <div class="card">
+        <h3>Data Diri</h3>
+        <p>Full Name: kaila pradita</p>
+        <p>Email: kailapradita73@gmail.com</p>
+        <p>Phone: 087772646586</p>
+        <p>Address: bogor</p>
+    </div>
+
+    
+    <div class="card">
+        <h3>Social Media</h3>
+        <p>Website: kaisite.com</p>
+        <p>Instagram: @kaiii0112</p>
+    </div>
+
+  
+    <div class="card">
+        <h3>Project</h3>
+
+        <p>HTML</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 100%;"></div>
+        </div>
+        <p>CSS</p>
+        <div class="progress">
+          <div class="progress-bar" style="width:85%;"></div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="progress">
+            <div class="progress-bar" style="width: 80%;"></div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
